@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <a href="/home/something" class="btn btn-primary">Click me</a>
+        <form action="/posttesting/foo" method="POST">
+            <input type="text" name="firstName" class="form-control" placeholder="First Name" />
+            <br />
+            <input type="text" name="lastName" class="form-control" placeholder="Last Name" />
+            <br />
+            <input type="hidden" value="123" name="extraStuff" />
+            <button class="btn btn-lg btn-success">Add Person</button>
+        </form>
+    </div>
+</body>
+</html>
